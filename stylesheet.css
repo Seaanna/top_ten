@@ -1,0 +1,60 @@
+body {
+  background: linear-gradient(to bottom right, #27c5ef, #775aa7);
+  text-align: center;
+}
+
+#myCarousel {
+  max-height: 200px;
+}
+
+.carousel-inner {
+  max-height: 200px;
+}
+
+.item >img {
+  max-height: 200px;
+  margin: auto;
+}
+.navbar-brand > img {
+  max-height: 30px;
+}
+
+.jumbotron {
+  background-image: url("https://www.britishcouncil.org/sites/default/files/styles/bc-landscape-630x354/public/computer_code_c_lee_pettet_630x354.jpg?itok=mx2XGx4d");
+  color: white;
+}
+
+.btn {
+  box-shadow: 2px 2px 5px #ffffff;
+}
+
+h2 {
+  text-shadow: 2px 2px 5px #ffffff;
+}
+
+.row {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+/*.col-sm-4 {
+  border-style: solid;
+  padding-bottom: 20px;
+}*/
+
+.col-sm-4 >img {
+  max-height: 20px;
+}
+
+footer {
+  background-image: url("https://www.britishcouncil.org/sites/default/files/styles/bc-landscape-630x354/public/computer_code_c_lee_pettet_630x354.jpg?itok=mx2XGx4d");
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+}
